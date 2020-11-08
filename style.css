@@ -116,8 +116,9 @@ body:before {
 
 .quote p2 {
     color: #AA00FF;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
+	float: right;
 }
 
 .quote p1 {
