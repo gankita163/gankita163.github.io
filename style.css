@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #AA00FF no-repeat center center fixed;
+    background: #b700ff no-repeat center center fixed;
     background-size: 80%;
     position: fixed;
     padding: 0px;
@@ -20,7 +20,7 @@ body:before {
     content: "";
     height: 0px;
     padding: 0px;
-    border: 110em solid #AA00FF;
+    border: 110em solid #e100ff;
     position: absolute;
     left: 50%;
     top: 100%;
@@ -60,7 +60,7 @@ body:before {
 
 .pic {
     display: inline-block;
-    padding: 8px;
+    padding: 4px;
     background: linear-gradient(130deg, #74b9ff, #e66767);
     margin: auto;
     border-radius: 50%;
@@ -85,7 +85,7 @@ body:before {
 
 .pic img {
     display: block;
-    width: 120px;
+    width: 90px;
     max-width: 100%;
     border-radius: 50%;
 }
@@ -104,6 +104,7 @@ body:before {
     color: #AA00FF;
     font-weight: 200;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .profile-card .quote {
@@ -116,13 +117,15 @@ body:before {
 
 .quote p2 {
     color: #AA00FF;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
+	float: center;
 }
 
 .quote p1 {
     font-size: 14px;
     color: #EEEEEE;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .card-footer {
